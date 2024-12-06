@@ -1,0 +1,64 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+    }
+
+    h1 {
+      color: #ff9800;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    #qr-code {
+    position: relative;
+      margin-top: 20px;
+      background-color: #fff;
+      width: 300px;
+      height: 300px;
+    }
+
+    #pokemonImage{
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        width: 150px;
+        height: 150px;
+        opacity: 80%;
+    }
+
+    #qrCodeImage{
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        width: 150px;
+        height: 150px;
+    }

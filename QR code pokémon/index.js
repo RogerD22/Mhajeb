@@ -5,7 +5,7 @@ async function getRandomPokemon() {
   const apiUrl = "https://pokeapi.co/api/v2/pokemon?limit=151";
 
   try {
-    // Récupérer les Pokémon
+    // Récupérer les Pokémons
     const response = await fetch(apiUrl);
     if (!response.ok) {
       throw new Error(`Erreur: ${response.status}`);
